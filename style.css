@@ -1,8 +1,39 @@
 body {
     margin: 0;
-
+    
     /* As flex container */
     display: flex;
     flex-direction: column;
     align-items: stretch;
+}
+
+.top-section {
+    background-color: #1F2937;
+    padding: 0 60px;
+
+    /* As flex item */
+    flex: 3 1 0;
+}
+
+.middle-top-section {
+    /* As flex item */
+    flex: 3 1 0;
+}
+
+.middle-bottom-section {
+    background-color: #E5E7EB;
+
+    /* As flex item */
+    flex: 2 1 0;
+}
+
+.bottom-section {
+    padding: 0 60px;
+
+    /* As flex item */
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
 }
