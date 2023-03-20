@@ -24,7 +24,14 @@ ul {
 /* Type-selector and class-selector styling */
 
 button {
+    color: white;
+    font-weight: 600;
+
     background-color: #3882f6;
+    border: 0px;
+    padding: 8px 28px;
+    border-radius: 10px;
+
 }
 
 .dark-background {
