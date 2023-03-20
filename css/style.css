@@ -150,6 +150,7 @@ h2 {
 
 .middle-bottom-section {
     background-color: #E5E7EB;
+    padding: 10vh 20vh;
 
     /* As flex item */
     flex: 2 1 0;
@@ -158,6 +159,10 @@ h2 {
 .quote {
     font-weight: lighter;
     font-style: italic;
+}
+
+h6 {
+    text-align: right;
 }
 
 .bottom-section {
