@@ -52,6 +52,23 @@ button {
     
     /* As flex item */
     flex: 3 1 0;
+    
+    /* As flex container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar {
+    width: 100%;
+    margin-top: 20px;
+
+    /* As flex item */
+    flex: none;
+
+    /* As flex container */
+    display: flex;
+    gap: 20px;
 }
 
 .top-section a,
@@ -61,10 +78,42 @@ button {
 
 #header-logo {
     font-size: 24px;
+    
+    /* As flex item */
+    margin-right: auto;
+}
+
+.intro {
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.intro ul {
+    width: 100%;
+    /* As flex item */
+    flex: auto;
+
+    /* As flex container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 30px; */
+}
+
+.hero-section {
+    max-width: 750px;
+    
+    /* As flex item */
+    flex: 1 1 auto;
 }
 
 h1 {
     font-size: 48px;
+}
+
+.top-section img {
+    height: auto;
+    width: 480px;
 }
 
 .middle-top-section {
