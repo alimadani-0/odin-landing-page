@@ -21,6 +21,10 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Type-selector and class-selector styling */
 
 button {
